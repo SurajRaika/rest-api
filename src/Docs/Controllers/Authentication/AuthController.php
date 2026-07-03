@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Authentication;
+namespace Orionis\RestApi\Docs\Controllers\Authentication;
 
 class AuthController
 {

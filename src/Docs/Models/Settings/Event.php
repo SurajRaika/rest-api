@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Models\Settings;
+namespace Orionis\RestApi\Docs\Models\Settings;
 
 /**
  * @OA\Schema(

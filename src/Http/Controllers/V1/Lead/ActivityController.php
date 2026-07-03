@@ -1,13 +1,13 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Lead;
+namespace Orionis\RestApi\Http\Controllers\V1\Lead;
 
 use Illuminate\Support\Facades\DB;
-use Webkul\Activity\Repositories\ActivityRepository;
-use Webkul\Email\Repositories\AttachmentRepository;
-use Webkul\Email\Repositories\EmailRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Resources\V1\Activity\ActivityResource;
+use Orionis\Activity\Repositories\ActivityRepository;
+use Orionis\Email\Repositories\AttachmentRepository;
+use Orionis\Email\Repositories\EmailRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Resources\V1\Activity\ActivityResource;
 
 class ActivityController extends Controller
 {

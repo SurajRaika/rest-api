@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Webkul\RestApi\Http\Controllers\V1\Lead\ActivityController;
-use Webkul\RestApi\Http\Controllers\V1\Lead\EmailController;
-use Webkul\RestApi\Http\Controllers\V1\Lead\LeadController;
-use Webkul\RestApi\Http\Controllers\V1\Lead\QuoteController;
-use Webkul\RestApi\Http\Controllers\V1\Lead\TagController;
+use Orionis\RestApi\Http\Controllers\V1\Lead\ActivityController;
+use Orionis\RestApi\Http\Controllers\V1\Lead\EmailController;
+use Orionis\RestApi\Http\Controllers\V1\Lead\LeadController;
+use Orionis\RestApi\Http\Controllers\V1\Lead\QuoteController;
+use Orionis\RestApi\Http\Controllers\V1\Lead\TagController;
 
 Route::group(['middleware' => ['auth:sanctum'], 'prefix' => 'leads'], function () {
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Lead;
+namespace Orionis\RestApi\Docs\Controllers\Lead;
 
 class QuoteController
 {

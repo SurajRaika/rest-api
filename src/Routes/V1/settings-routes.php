@@ -1,25 +1,25 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Webkul\RestApi\Http\Controllers\V1\Setting\AttributeController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\DataTransfer\ImportController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\EmailTemplateController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\GroupController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\LocationController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\Marketing\CampaignController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\Marketing\EventController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\PipelineController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\RoleController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\SourceController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\TagController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\TypeController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\UserController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\Warehouses\ActivityController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\Warehouses\TagController as WarehouseTagController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\Warehouses\WarehouseController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\WebFormController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\WebhookController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\WorkflowController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\AttributeController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\DataTransfer\ImportController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\EmailTemplateController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\GroupController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\LocationController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\Marketing\CampaignController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\Marketing\EventController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\PipelineController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\RoleController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\SourceController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\TagController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\TypeController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\UserController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\Warehouses\ActivityController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\Warehouses\TagController as WarehouseTagController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\Warehouses\WarehouseController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\WebFormController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\WebhookController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\WorkflowController;
 
 Route::group([
     'prefix'     => 'settings',

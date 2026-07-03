@@ -1,13 +1,13 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Setting\Marketing;
+namespace Orionis\RestApi\Http\Controllers\V1\Setting\Marketing;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
-use Webkul\Marketing\Repositories\EventRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Request\MassDestroyRequest;
-use Webkul\RestApi\Http\Resources\V1\Setting\EventResource;
+use Orionis\Marketing\Repositories\EventRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Request\MassDestroyRequest;
+use Orionis\RestApi\Http\Resources\V1\Setting\EventResource;
 
 class EventController extends Controller
 {

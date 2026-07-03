@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Settings\DataTransfer;
+namespace Orionis\RestApi\Docs\Controllers\Settings\DataTransfer;
 
 class ImportController
 {

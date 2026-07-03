@@ -1,17 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Webkul\RestApi\Http\Controllers\V1\Setting\AttributeController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\EmailTemplateController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\GroupController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\PipelineController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\RoleController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\SourceController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\TagController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\TypeController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\UserController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\WebFormController;
-use Webkul\RestApi\Http\Controllers\V1\Setting\WorkflowController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\AttributeController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\EmailTemplateController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\GroupController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\PipelineController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\RoleController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\SourceController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\TagController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\TypeController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\UserController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\WebFormController;
+use Orionis\RestApi\Http\Controllers\V1\Setting\WorkflowController;
 
 Route::group([
     'prefix'     => 'settings',

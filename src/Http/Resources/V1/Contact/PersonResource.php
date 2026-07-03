@@ -1,9 +1,9 @@
 <?php
 
-namespace Webkul\RestApi\Http\Resources\V1\Contact;
+namespace Orionis\RestApi\Http\Resources\V1\Contact;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Webkul\RestApi\Http\Resources\V1\Setting\UserResource;
+use Orionis\RestApi\Http\Resources\V1\Setting\UserResource;
 
 class PersonResource extends JsonResource
 {

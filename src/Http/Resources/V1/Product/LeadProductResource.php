@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Http\Resources\V1\Product;
+namespace Orionis\RestApi\Http\Resources\V1\Product;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

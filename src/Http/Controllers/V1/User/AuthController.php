@@ -1,16 +1,16 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\User;
+namespace Orionis\RestApi\Http\Controllers\V1\User;
 
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Validation\ValidationException;
-use Webkul\Admin\Notifications\User\UserResetPassword;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Resources\V1\Setting\UserResource;
-use Webkul\User\Repositories\UserRepository;
+use Orionis\Admin\Notifications\User\UserResetPassword;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Resources\V1\Setting\UserResource;
+use Orionis\User\Repositories\UserRepository;
 
 class AuthController extends Controller
 {

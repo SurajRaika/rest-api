@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Models\Lead;
+namespace Orionis\RestApi\Docs\Models\Lead;
 
 /**
  * @OA\Schema(
@@ -73,7 +73,7 @@ class LeadProduct
      *     example=1099.99,
      * )
      *
-     * @var \Webkul\RestApi\Docs\Models\Product\Product
+     * @var \Orionis\RestApi\Docs\Models\Product\Product
      */
     private $product;
 

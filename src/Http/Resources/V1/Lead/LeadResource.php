@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Http\Resources\V1\Lead;
+namespace Orionis\RestApi\Http\Resources\V1\Lead;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Webkul\RestApi\Http\Resources\V1\Contact\PersonResource;
-use Webkul\RestApi\Http\Resources\V1\Product\LeadProductResource;
-use Webkul\RestApi\Http\Resources\V1\Setting\UserResource;
+use Orionis\RestApi\Http\Resources\V1\Contact\PersonResource;
+use Orionis\RestApi\Http\Resources\V1\Product\LeadProductResource;
+use Orionis\RestApi\Http\Resources\V1\Setting\UserResource;
 
 class LeadResource extends JsonResource
 {

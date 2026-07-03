@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Models\Contact;
+namespace Orionis\RestApi\Docs\Models\Contact;
 
 /**
  * @OA\Schema(
@@ -99,7 +99,7 @@ class Person
      *     description="Organization",
      * )
      *
-     * @var \Webkul\RestApi\Docs\Models\Contact\Organization
+     * @var \Orionis\RestApi\Docs\Models\Contact\Organization
      */
     private $organization;
 

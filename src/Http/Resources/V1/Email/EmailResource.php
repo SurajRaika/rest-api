@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Http\Resources\V1\Email;
+namespace Orionis\RestApi\Http\Resources\V1\Email;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Webkul\Admin\Http\Resources\EmailAttachmentResource;
-use Webkul\RestApi\Http\Resources\V1\Contact\PersonResource;
-use Webkul\RestApi\Http\Resources\V1\Lead\LeadResource;
+use Orionis\Admin\Http\Resources\EmailAttachmentResource;
+use Orionis\RestApi\Http\Resources\V1\Contact\PersonResource;
+use Orionis\RestApi\Http\Resources\V1\Lead\LeadResource;
 
 class EmailResource extends JsonResource
 {

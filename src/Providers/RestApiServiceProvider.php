@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Providers;
+namespace Orionis\RestApi\Providers;
 
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Webkul\RestApi\Exceptions\Handler;
+use Orionis\RestApi\Exceptions\Handler;
 
 class RestApiServiceProvider extends ServiceProvider
 {
@@ -15,7 +15,7 @@ class RestApiServiceProvider extends ServiceProvider
      * @var array
      */
     protected $middlewareAliases = [
-        'sanctum.admin' => \Webkul\RestApi\Middleware\AdminMiddleware::class,
+        'sanctum.admin' => \Orionis\RestApi\Middleware\AdminMiddleware::class,
     ];
 
     /**
@@ -69,7 +69,7 @@ class RestApiServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \Webkul\RestApi\Console\Commands\Install::class,
+                \Orionis\RestApi\Console\Commands\Install::class,
             ]);
         }
     }

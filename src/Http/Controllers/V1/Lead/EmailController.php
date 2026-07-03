@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Lead;
+namespace Orionis\RestApi\Http\Controllers\V1\Lead;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Event;
-use Webkul\RestApi\Http\Controllers\V1\Mail\EmailController as BaseEmailController;
-use Webkul\RestApi\Http\Resources\V1\Activity\ActivityResource;
+use Orionis\RestApi\Http\Controllers\V1\Mail\EmailController as BaseEmailController;
+use Orionis\RestApi\Http\Resources\V1\Activity\ActivityResource;
 
 class EmailController extends BaseEmailController
 {

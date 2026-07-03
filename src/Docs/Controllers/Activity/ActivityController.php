@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Activity;
+namespace Orionis\RestApi\Docs\Controllers\Activity;
 
 class ActivityController
 {

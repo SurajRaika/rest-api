@@ -1,21 +1,21 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Mail;
+namespace Orionis\RestApi\Http\Controllers\V1\Mail;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
-use Webkul\Attribute\Repositories\AttributeRepository;
-use Webkul\Email\Mails\Email;
-use Webkul\Email\Repositories\AttachmentRepository;
-use Webkul\Email\Repositories\EmailRepository;
-use Webkul\Lead\Repositories\LeadRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Request\MassDestroyRequest;
-use Webkul\RestApi\Http\Request\MassUpdateRequest;
-use Webkul\RestApi\Http\Resources\V1\Email\EmailResource;
+use Orionis\Attribute\Repositories\AttributeRepository;
+use Orionis\Email\Mails\Email;
+use Orionis\Email\Repositories\AttachmentRepository;
+use Orionis\Email\Repositories\EmailRepository;
+use Orionis\Lead\Repositories\LeadRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Request\MassDestroyRequest;
+use Orionis\RestApi\Http\Request\MassUpdateRequest;
+use Orionis\RestApi\Http\Resources\V1\Email\EmailResource;
 
 class EmailController extends Controller
 {

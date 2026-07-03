@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Cofiguration;
+namespace Orionis\RestApi\Docs\Controllers\Cofiguration;
 
 class ConfigurationController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Http\Request;
+namespace Orionis\RestApi\Http\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 

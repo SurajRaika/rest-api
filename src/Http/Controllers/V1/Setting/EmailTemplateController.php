@@ -1,14 +1,14 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Setting;
+namespace Orionis\RestApi\Http\Controllers\V1\Setting;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
-use Webkul\Automation\Helpers\Entity;
-use Webkul\EmailTemplate\Repositories\EmailTemplateRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Resources\V1\Setting\EmailTemplateResource;
+use Orionis\Automation\Helpers\Entity;
+use Orionis\EmailTemplate\Repositories\EmailTemplateRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Resources\V1\Setting\EmailTemplateResource;
 
 class EmailTemplateController extends Controller
 {

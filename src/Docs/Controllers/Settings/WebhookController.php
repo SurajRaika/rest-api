@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Settings;
+namespace Orionis\RestApi\Docs\Controllers\Settings;
 
 class WebhookController
 {

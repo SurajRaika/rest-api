@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Models\Quote;
+namespace Orionis\RestApi\Docs\Models\Quote;
 
 /**
  * @OA\Schema(

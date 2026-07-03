@@ -4,12 +4,12 @@
     "authors": [
         {
             "name": "Devansh Bawari",
-            "email": "devansh.bawari419@webkul.com"
+            "email": "devansh.bawari419@Orionis.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Webkul\\RestApi\\": "src/"
+            "Orionis\\RestApi\\": "src/"
         }
     },
     "require": {
@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webkul\\RestApi\\Providers\\RestApiServiceProvider"
+                "Orionis\\RestApi\\Providers\\RestApiServiceProvider"
             ]
         }
     },

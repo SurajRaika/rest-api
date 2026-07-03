@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Contact\Persons;
+namespace Orionis\RestApi\Http\Controllers\V1\Contact\Persons;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Event;
-use Webkul\Contact\Repositories\PersonRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
+use Orionis\Contact\Repositories\PersonRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
 
 class TagController extends Controller
 {

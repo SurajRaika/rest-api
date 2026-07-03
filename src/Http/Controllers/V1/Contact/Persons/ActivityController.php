@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Contact\Persons;
+namespace Orionis\RestApi\Http\Controllers\V1\Contact\Persons;
 
-use Webkul\Activity\Repositories\ActivityRepository;
-use Webkul\Email\Repositories\EmailRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Resources\V1\Activity\ActivityResource;
+use Orionis\Activity\Repositories\ActivityRepository;
+use Orionis\Email\Repositories\EmailRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Resources\V1\Activity\ActivityResource;
 
 class ActivityController extends Controller
 {

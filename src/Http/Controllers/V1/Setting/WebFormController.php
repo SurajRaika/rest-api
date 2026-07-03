@@ -1,18 +1,18 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Setting;
+namespace Orionis\RestApi\Http\Controllers\V1\Setting;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
-use Webkul\Attribute\Repositories\AttributeRepository;
-use Webkul\Contact\Repositories\PersonRepository;
-use Webkul\Lead\Repositories\LeadRepository;
-use Webkul\Lead\Repositories\PipelineRepository;
-use Webkul\Lead\Repositories\SourceRepository;
-use Webkul\Lead\Repositories\TypeRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Resources\V1\Setting\WebFormResource;
-use Webkul\WebForm\Repositories\WebFormRepository;
+use Orionis\Attribute\Repositories\AttributeRepository;
+use Orionis\Contact\Repositories\PersonRepository;
+use Orionis\Lead\Repositories\LeadRepository;
+use Orionis\Lead\Repositories\PipelineRepository;
+use Orionis\Lead\Repositories\SourceRepository;
+use Orionis\Lead\Repositories\TypeRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Resources\V1\Setting\WebFormResource;
+use Orionis\WebForm\Repositories\WebFormRepository;
 
 class WebFormController extends Controller
 {

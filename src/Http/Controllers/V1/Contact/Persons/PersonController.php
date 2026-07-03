@@ -1,17 +1,17 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Contact\Persons;
+namespace Orionis\RestApi\Http\Controllers\V1\Contact\Persons;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Prettus\Repository\Criteria\RequestCriteria;
-use Webkul\Admin\Http\Requests\AttributeForm;
-use Webkul\Contact\Repositories\PersonRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Request\MassDestroyRequest;
-use Webkul\RestApi\Http\Resources\V1\Contact\PersonResource;
-use Webkul\User\Repositories\UserRepository;
+use Orionis\Admin\Http\Requests\AttributeForm;
+use Orionis\Contact\Repositories\PersonRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Request\MassDestroyRequest;
+use Orionis\RestApi\Http\Resources\V1\Contact\PersonResource;
+use Orionis\User\Repositories\UserRepository;
 
 class PersonController extends Controller
 {

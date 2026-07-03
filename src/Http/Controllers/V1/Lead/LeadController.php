@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Lead;
+namespace Orionis\RestApi\Http\Controllers\V1\Lead;
 
 use Carbon\Carbon;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
@@ -8,25 +8,25 @@ use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Validator;
 use Prettus\Repository\Criteria\RequestCriteria;
-use Webkul\Admin\Http\Requests\LeadForm;
-use Webkul\Attribute\Repositories\AttributeRepository;
-use Webkul\Contact\Repositories\PersonRepository;
-use Webkul\DataGrid\Enums\DateRangeOptionEnum;
-use Webkul\Lead\Helpers\MagicAI;
-use Webkul\Lead\Repositories\LeadRepository;
-use Webkul\Lead\Repositories\PipelineRepository;
-use Webkul\Lead\Repositories\ProductRepository;
-use Webkul\Lead\Repositories\SourceRepository;
-use Webkul\Lead\Repositories\StageRepository;
-use Webkul\Lead\Repositories\TypeRepository;
-use Webkul\Lead\Services\MagicAIService;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Request\MassDestroyRequest;
-use Webkul\RestApi\Http\Request\MassUpdateRequest;
-use Webkul\RestApi\Http\Resources\V1\Lead\LeadResource;
-use Webkul\RestApi\Http\Resources\V1\Setting\StageResource;
-use Webkul\Tag\Repositories\TagRepository;
-use Webkul\User\Repositories\UserRepository;
+use Orionis\Admin\Http\Requests\LeadForm;
+use Orionis\Attribute\Repositories\AttributeRepository;
+use Orionis\Contact\Repositories\PersonRepository;
+use Orionis\DataGrid\Enums\DateRangeOptionEnum;
+use Orionis\Lead\Helpers\MagicAI;
+use Orionis\Lead\Repositories\LeadRepository;
+use Orionis\Lead\Repositories\PipelineRepository;
+use Orionis\Lead\Repositories\ProductRepository;
+use Orionis\Lead\Repositories\SourceRepository;
+use Orionis\Lead\Repositories\StageRepository;
+use Orionis\Lead\Repositories\TypeRepository;
+use Orionis\Lead\Services\MagicAIService;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Request\MassDestroyRequest;
+use Orionis\RestApi\Http\Request\MassUpdateRequest;
+use Orionis\RestApi\Http\Resources\V1\Lead\LeadResource;
+use Orionis\RestApi\Http\Resources\V1\Setting\StageResource;
+use Orionis\Tag\Repositories\TagRepository;
+use Orionis\User\Repositories\UserRepository;
 
 class LeadController extends Controller
 {

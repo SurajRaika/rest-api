@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Product;
+namespace Orionis\RestApi\Docs\Controllers\Product;
 
 class ProductController
 {

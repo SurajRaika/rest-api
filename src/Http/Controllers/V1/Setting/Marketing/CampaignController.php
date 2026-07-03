@@ -1,15 +1,15 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Setting\Marketing;
+namespace Orionis\RestApi\Http\Controllers\V1\Setting\Marketing;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
-use Webkul\EmailTemplate\Repositories\EmailTemplateRepository;
-use Webkul\Marketing\Repositories\CampaignRepository;
-use Webkul\Marketing\Repositories\EventRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Request\MassDestroyRequest;
-use Webkul\RestApi\Http\Resources\V1\Setting\CampaignResource;
+use Orionis\EmailTemplate\Repositories\EmailTemplateRepository;
+use Orionis\Marketing\Repositories\CampaignRepository;
+use Orionis\Marketing\Repositories\EventRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Request\MassDestroyRequest;
+use Orionis\RestApi\Http\Resources\V1\Setting\CampaignResource;
 
 class CampaignController extends Controller
 {

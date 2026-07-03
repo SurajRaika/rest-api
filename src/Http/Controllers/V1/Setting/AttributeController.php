@@ -1,17 +1,17 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Setting;
+namespace Orionis\RestApi\Http\Controllers\V1\Setting;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpFoundation\StreamedResponse;
-use Webkul\Attribute\Repositories\AttributeRepository;
-use Webkul\Core\Contracts\Validations\Code;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Request\MassDestroyRequest;
-use Webkul\RestApi\Http\Resources\V1\Setting\AttributeResource;
+use Orionis\Attribute\Repositories\AttributeRepository;
+use Orionis\Core\Contracts\Validations\Code;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Request\MassDestroyRequest;
+use Orionis\RestApi\Http\Resources\V1\Setting\AttributeResource;
 
 class AttributeController extends Controller
 {

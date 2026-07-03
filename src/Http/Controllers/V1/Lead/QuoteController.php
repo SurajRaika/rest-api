@@ -1,11 +1,11 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Lead;
+namespace Orionis\RestApi\Http\Controllers\V1\Lead;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Event;
-use Webkul\Lead\Repositories\LeadRepository;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
+use Orionis\Lead\Repositories\LeadRepository;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
 
 class QuoteController extends Controller
 {

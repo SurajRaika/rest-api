@@ -1,15 +1,15 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1\Setting\Warehouses;
+namespace Orionis\RestApi\Http\Controllers\V1\Setting\Warehouses;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Event;
 use Prettus\Repository\Criteria\RequestCriteria;
-use Webkul\Admin\Http\Requests\AttributeForm;
-use Webkul\RestApi\Http\Controllers\V1\Controller;
-use Webkul\RestApi\Http\Resources\V1\Setting\WarehouseResource;
-use Webkul\Warehouse\Repositories\WarehouseRepository;
+use Orionis\Admin\Http\Requests\AttributeForm;
+use Orionis\RestApi\Http\Controllers\V1\Controller;
+use Orionis\RestApi\Http\Resources\V1\Setting\WarehouseResource;
+use Orionis\Warehouse\Repositories\WarehouseRepository;
 
 class WarehouseController extends Controller
 {

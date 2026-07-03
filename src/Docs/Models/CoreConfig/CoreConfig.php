@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Models\CoreConfig;
+namespace Orionis\RestApi\Docs\Models\CoreConfig;
 
 /**
  * @OA\Schema(

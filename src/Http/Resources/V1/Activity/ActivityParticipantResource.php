@@ -1,10 +1,10 @@
 <?php
 
-namespace Webkul\RestApi\Http\Resources\V1\Activity;
+namespace Orionis\RestApi\Http\Resources\V1\Activity;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Webkul\RestApi\Http\Resources\V1\Contact\PersonResource;
-use Webkul\RestApi\Http\Resources\V1\Setting\UserResource;
+use Orionis\RestApi\Http\Resources\V1\Contact\PersonResource;
+use Orionis\RestApi\Http\Resources\V1\Setting\UserResource;
 
 class ActivityParticipantResource extends JsonResource
 {

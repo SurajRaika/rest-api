@@ -1,9 +1,9 @@
 <?php
 
-namespace Webkul\RestApi\Http\Controllers\V1;
+namespace Orionis\RestApi\Http\Controllers\V1;
 
-use Webkul\Core\Eloquent\Repository;
-use Webkul\RestApi\Http\Controllers\RestApiController;
+use Orionis\Core\Eloquent\Repository;
+use Orionis\RestApi\Http\Controllers\RestApiController;
 
 class Controller extends RestApiController
 {

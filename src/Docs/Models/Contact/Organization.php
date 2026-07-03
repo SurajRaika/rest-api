@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Models\Contact;
+namespace Orionis\RestApi\Docs\Models\Contact;
 
 /**
  * @OA\Schema(

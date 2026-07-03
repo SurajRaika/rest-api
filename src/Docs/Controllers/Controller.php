@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers;
+namespace Orionis\RestApi\Docs\Controllers;
 
 /**
  * @OA\Info(

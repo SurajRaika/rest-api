@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\RestApi\Docs\Controllers\Quote;
+namespace Orionis\RestApi\Docs\Controllers\Quote;
 
 class QuoteController
 {
@@ -86,7 +86,7 @@ class QuoteController
      *      operationId="searchQuotes",
      *      tags={"Quotes"},
      *      summary="search the quotes",
-     *      description="search the quotes heres the webkul is the search keyword",
+     *      description="search the quotes heres the Orionis is the search keyword",
      *      security={ {"sanctum_admin": {} }},
      *
      *      @OA\Parameter(
@@ -96,7 +96,7 @@ class QuoteController
      *
      *          @OA\Schema(
      *              type="string",
-     *              example="subject:webkul;description:webkul;user.name:webkul;person.name:webkul;"
+     *              example="subject:Orionis;description:Orionis;user.name:Orionis;person.name:Orionis;"
      *          )
      *      ),
      *
@@ -177,7 +177,7 @@ class QuoteController
      *                  property="subject",
      *                  type="string",
      *                  description="Subject of the quote",
-     *                  example="Webkul"
+     *                  example="Orionis"
      *              ),
      *              @OA\Property(
      *                  property="user_id",
@@ -448,7 +448,7 @@ class QuoteController
      *                  property="subject",
      *                  type="string",
      *                  description="Subject of the quote",
-     *                  example="Webkul"
+     *                  example="Orionis"
      *              ),
      *              @OA\Property(
      *                  property="user_id",
